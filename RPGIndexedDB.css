@@ -1,0 +1,55 @@
+/* RPGIndexedDB.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+#inventory-list, #quest-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#inventory-list li, #quest-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#inventory-list li:last-child, #quest-list li:last-child {
+  border-bottom: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+

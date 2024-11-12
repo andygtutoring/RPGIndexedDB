@@ -1,0 +1,42 @@
+<!-- RPGIndexedDB.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="RPGIndexedDB.css">
+  </head>
+  <body>
+    <header>
+      <h1>RPG Game</h1>
+    </header>
+    <main>
+      <section id="player-stats">
+        <h2>Player Stats</h2>
+        <p>Health: <span id="health"></span></p>
+        <p>Gold: <span id="gold"></span></p>
+        <p>Experience: <span id="experience"></span></p>
+        <p>Level: <span id="level"></span></p>
+      </section>
+      <section id="inventory">
+        <h2>Inventory</h2>
+        <ul id="inventory-list"></ul>
+      </section>
+      <section id="quests">
+        <h2>Quests</h2>
+        <ul id="quest-list"></ul>
+      </section>
+      <section id="game-world">
+        <h2>Game World</h2>
+        <p id="location"></p>
+        <button id="move-north">Move North</button>
+        <button id="move-south">Move South</button>
+        <button id="move-east">Move East</button>
+        <button id="move-west">Move West</button>
+      </section>
+    </main>
+    <script src="RPGIndexedDB.js"></script>
+  </body>
+</html>
+
